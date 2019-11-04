@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.css"
 
-const ScoreBoard = (teamClass,
-                    teamNameClass,
-                    teamName,
-                    teamScoreClass,
-                    teamScore) => {
+const ScoreBoard = (props) => {
     return (
-        <div className={teamClass}>
-            <h2 className={teamNameClass}>{teamName}</h2>
-            <div className={teamScoreClass}>{teamScore}</div>
+        <div className={props.teamClass}>
+            <h2 className={props.teamNameClass}>{props.teamName}</h2>
+            <div className={props.teamScoreClass}>{props.teamScore}</div>
         </div>
     );
 

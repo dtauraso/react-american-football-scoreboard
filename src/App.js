@@ -14,12 +14,14 @@ function App() {
 
       if(teamName === "home") {
         setHomeScore(homeScore + pointsAwarded)
+
       } else if(teamName === "other") {
         setOtherScore(otherScore + pointsAwarded)
+
       }
   }
 
-  
+
   return (
     <div className="container">
       <section className="scoreboard">

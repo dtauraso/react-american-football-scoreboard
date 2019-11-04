@@ -4,14 +4,8 @@ import GameStats from "./GameStats.js";
 
 const BottomRow = (props) => {
 
-  // let [quarter, setQuarter] = useState(4);
-
-  // const updateQuarter = (myQuarter) => {
-  //   setQuarter((myQuarter + 1) % 4)
-  // }
   
-  console.log(props.myValue)
-  // updateQuarter(props.myValue);
+  // console.log(props.myValue)
   return (
     <div className="bottomRow">
 
@@ -38,7 +32,6 @@ const BottomRow = (props) => {
                   statsValueClass="quarter__value"
                   statsTitle="Quarter"
                   statsValue={props.myValue} />
-      {/* <button className="homeButtons__touchdown" onClick={() => {}}>testing</button> */}
 
     </div>
   );

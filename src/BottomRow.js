@@ -5,7 +5,6 @@ import GameStats from "./GameStats.js";
 const BottomRow = (props) => {
 
   
-  // console.log(props.myValue)
   return (
     <div className="bottomRow">
 
